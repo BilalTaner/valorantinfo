@@ -13,7 +13,7 @@ function  getagent(agent) {
 return agent.id  ===  'omen'; //agent name
 
 };
-let example = modül.find(getagent)
+let example = test.find(getagent)
 console.log(example) // gives information about omen in array.
 console.log(example.bio)// gives the story of the omen
 ````
